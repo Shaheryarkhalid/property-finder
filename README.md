@@ -8,6 +8,8 @@ Second way to use advanced filter in which you can further narrow down the searc
 
 ### Running this Project
 Running this project is very simple just clone this repo and type:
+<code>npm install</code>
+<code>npm run build</code>
 <code>npm run start</code>
 Build file of this project has been included in the github repo.
 
