@@ -1,0 +1,52 @@
+export type TProperty = {
+    id: string;
+    name: string;
+    description: string;
+    city: string;
+    category: string;
+    propertyDescription: string;
+    unitType: string;
+    bedrooms: string;
+    bathrooms: string;
+    parking: string;
+    priceRange: string;
+    completionStatus: string;
+    listedBy: string;
+    ownership: string;
+    unitArea: string;
+    furnishing: string;
+    handoverBy: string;
+    completionPercentage: string;
+    downPayment: number;
+    amenities: string[];
+    facilities: string[];
+    view: string[];
+    media: string;
+    status: string;
+    keywords: string;
+}
+export type TAdvancedFilterSearchParams = {
+    propertyType: string;
+    propertyDescription: string;
+    category: string;
+    bedrooms: string;
+    bathrooms: string;
+    parking: string;
+    price: number[];
+    completionStatus: string;
+    listedBy: string;
+    ownership: string;
+    plotArea: number[];
+    buildUpArea: number[];
+    furnishing: string;
+    handoverBy: string;
+    completionPercentage: string;
+    downPayment: number;
+    amenities: string[];
+    facilities: string[];
+    view: string[];
+    media: string;
+    status: string;
+    city: string;
+    unitType: string;
+}
